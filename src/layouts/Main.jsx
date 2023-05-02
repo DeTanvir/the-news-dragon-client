@@ -8,7 +8,7 @@ import RightNav from '../pages/Shared/RightNav/RightNav';
 
 const Main = () => {
     return (
-        <div>
+        <Container>
             <Header></Header>
             <Container>
                 <Row>
@@ -25,7 +25,7 @@ const Main = () => {
             </Container>
             <Outlet></Outlet>
             <Footer></Footer>
-        </div>
+        </Container>
     );
 };
 
